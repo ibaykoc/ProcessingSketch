@@ -10,6 +10,7 @@ void setup() {
   for (int i = 0; i < points.length; i++) {
     points[i] = new Point(random(0, width), random(0, height));
   }
+  background(0);
 }
 
 void draw() {
@@ -20,5 +21,8 @@ void draw() {
     points[i].Draw();
   }
   println(frameRate);
-  //saveFrame("output/######-img.png");
+  saveFrame("output/######-img.png");
+  if(frameCount >= 1134){
+   exit(); 
+  }
 }

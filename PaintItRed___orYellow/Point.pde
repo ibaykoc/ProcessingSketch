@@ -5,8 +5,8 @@ public class Point {
   public float y;
   float size = random(8,32);
   float dist_to_mouse;
-  color farColor = color(#fdcf58, 255);
-  color nearColor = color(#800909, 255);
+  color farColor = color(#F3FFBD, 255);
+  color nearColor = color(#247BA0, 255);
 
   float xOrg;
   float yOrg;
